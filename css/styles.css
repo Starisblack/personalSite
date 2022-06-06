@@ -1,18 +1,22 @@
-body{
+body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
 
-.navbar{
-
+.head-box {
+  padding: 1% !important;
 }
 
-.collapse{
+.myName {
+  visibility: hidden;
+}
+
+.collapse {
   padding: 15px 0;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.4rem;
   margin: 0 1rem;
 }
@@ -20,9 +24,6 @@ body{
 .get-started-btn {
   margin-left: 1rem;
 }
-
-
-
 
 .get-started-btn {
   -webkit-border-radius: 28;
@@ -53,17 +54,17 @@ body{
   text-align: center;
 }
 
-.my-name{
-  margin:50px 0 0 0;
+.my-name {
+  margin: 50px 0 0 0;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
 }
 
-.profile{
+.profile {
   margin: 100px auto;
 }
 
-.bio{
+.bio {
   width: 25%;
   margin: 0 auto;
 }
@@ -74,38 +75,39 @@ body{
   width: 5%;
 }
 
-h1, h2{
+h1, h2 {
   color: #66BFBF !important;
 }
 
-.pro{
+.pro {
   font-weight: bold;
   font-size: 1.5rem;
 }
-.pro-text{
+
+.pro-text {
   text-decoration: underline;
 }
 
-h2{
+h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
-h3{
+h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
-.profile-img, .skill-img{
+.profile-img, .skill-img {
   width: 160px;
   margin-bottom: 1rem;
 }
 
-.top-cloud{
+.top-cloud {
   position: absolute;
   right: 300px;
   top: 50px;
 }
 
-.bottom-cloud{
+.bottom-cloud {
   position: absolute;
   left: 300px;
   bottom: 300px;
@@ -115,55 +117,57 @@ h3 {
   color: #11999E !important;
 }
 
-.middle-container{
+.middle-container {
   text-align: center;
 }
 
-#services{
+#services {
   margin: 100px auto;
   background-color: #F9F3EE;
 }
 
-.skills{
+.skills {
   padding: 50px 0;
 }
 
-.skill-row{
+.skill-row {
   width: 50%;
   margin: 100px auto;
   text-align: left;
   line-height: 2;
 }
 
-.skill-img{
+.skill-img {
   float: left;
   margin-right: 30px;
 }
 
-.my-skills{
+.my-skills {
   font-size: 2.5rem;
 }
 
-.Languages, .dev-tools{
+.Languages, .dev-tools {
   FONT-WEIGHT: 600;
   LETTER-SPACING: 3PX;
 }
 
-.contact-me{
+.contact-me {
   margin: 100px auto;
 }
 
-.love-food{
+.love-food {
   margin: 20px 0;
 }
 
-#project{
+#project {
   text-align: left;
 }
-.container-fluid{
+
+.project-fluidBox {
   padding: 0 7% !important;
 }
-.projects{
+
+.projects {
   color: black;
 }
 
@@ -194,57 +198,56 @@ h3 {
   text-decoration: none;
 }
 
-.bottom-container{
+.bottom-container {
   background-color: #66BFBF;
   padding: 50px 0;
   text-align: center;
 }
 
-.bottom-container p{
+.bottom-container p {
   margin: 30px 0 0 0;
   color: white;
 }
 
-.bottom-container a{
+.bottom-container a {
   text-decoration: none;
   margin: 0 30px;
   font-weight: bold;
   letter-spacing: 2px;
 }
 
-.project-row{
+.project-row {
   margin: 80px 0;
 }
 
-.project-box{
-    height: 300px;
-    border-radius: 15px;
-    box-shadow: 1px 1px 10px 6px #dcdcdc;
-    margin: 10px;
+.project-box {
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px 6px #dcdcdc;
+  margin: 10px;
 }
 
-.kasinstitute{
+.kasinstitute {
   background-image: url("../images/kasinstitute.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.miasheart{
+.miasheart {
   background-image: url("../images/miaheart.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.frontend{
+.frontend {
   background-image: url("../images/frontend.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.frontend h1{
+.frontend h1 {
   font-size: 1.2rem;
 }
-
 
 .overlay {
   border-radius: 15px;
@@ -295,53 +298,64 @@ h3 {
   text-decoration: none;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 1300px) {
+  .col-lg-4 {
+    max-width: 31.8% !important;
+  }
+}
 
+@media screen and (max-width: 1024px) {
   .skill-row {
     width: 80%;
-}
+  }
 
   .top-cloud {
     right: 200px;
-}
+  }
 
   .bottom-cloud {
-   left: 200px;
-
-}
-}
-
-
-@media screen and (max-width: 770px){
-
-  .skill-row {
-    width: 70%;
-}
-
-  .top-cloud {
-    right: 150px;
-}
-
-  .bottom-cloud {
-   left: 150px;
-
-}
-}
-
-@media screen and (min-width: 1300px){
-.col-lg-4 {
-    max-width: 31.8% !important;
-}
+    left: 200px;
+  }
 }
 
 @media screen and (max-width: 991px) {
+  .myName {
+    visibility: visible;
+    margin: 0 0 0 3rem;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    font-family: 'Short Stack', cursive;
+  }
 
-  .container-fluid{
+  .navbar-toggler {
+    font-size: 2.5rem !important;
+  }
+
+  .bio {
+    width: 50%;
+    font-size: 2rem;
+  }
+
+  .project-fluidBox {
     padding: 0 10% !important;
   }
 
-  .project-box{
-      height: 400px;
-      margin-bottom: 35px;
+  .project-box {
+    height: 400px;
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .skill-row {
+    width: 70%;
+  }
+
+  .top-cloud {
+    right: 150px;
+  }
+
+  .bottom-cloud {
+    left: 150px;
   }
 }
