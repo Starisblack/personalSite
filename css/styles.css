@@ -5,7 +5,7 @@ body {
 }
 
 .head-box {
-  padding: 3% 7% !important;
+  padding: 1% 7% !important;
 }
 
 .header-content {
@@ -324,6 +324,10 @@ h3 {
 }
 
 @media screen and (max-width: 991px) {
+  .head-box {
+    padding: 3% 7% !important;
+  }
+
   .myName {
     visibility: visible;
     margin: 0 0 0 3rem;
